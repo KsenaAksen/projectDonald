@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.1em;
+    font-family: "Tektur", sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    text-align: center;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 10px 40px;
+}
+#about {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    text-align: center;
+}
+#articles {
+    background-color: rgb(148, 148, 148);
+    padding: 20px 40px;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #363636;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #000000d7
+}
+#content {
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+    div img{
+        box-shadow: 5px 5px 3px grey;
+    }
+/* div {
+    background-color: aliceblue;
+    width: 300px;
+    min-height: 100px;
+    border: solid 5px rgb(230, 230, 255);
+    padding: 10px 30px 60px 100px;
+    margin: 50px;
+} */
+ #content ul {
+    text-align: left;
+ }
+ #content h4 {
+    text-align: left;
+ }
+ #content h3 {
+    text-align: left;
+ }
+ #content dl {
+text-align: left;
+ }
+
+ p2
+
+  {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: #2d00f7;
+}
+
+a:focus {
+    color: #252525;
+}
+nav a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #2d00f7;
+}
+
+nav a:focus {
+    color: rgb(0, 0, 0);
+}
+
+#articles li a:hover {
+    color: #000000;
+}
+#articles li a:focus {
+    color: #979797;
+    text-decoration: none;
+}
+#articles li:nth-child(odd) {
+    background-color: rgb(131, 131, 131);
+}
+
+#articles li:nth-child(even) {
+    background-color: rgb(138, 138, 138);
+}
+
+#articles li.look::after{
+    content: "Важно! ";
+    font-size: 0.7rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 2px 6px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.stroke::first-line{
+    letter-spacing: 2px
+}
+p:lang(en) {
+    font-style: oblique;
+    color: #363636;
+}
+
+#about h2 {
+    color: rgb(168, 168, 168);
+}
+
+footer img {
+    background-color: #ffffff;
+    border: #ffffff solid 3px;
+    border-radius: 30px;
+}
+img+p {
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-family: "WDXL Lubrifont TC", sans-serif;;
+    }
+h2 {
+    text-align: center;
+    color: #363636;
+    text-decoration: overline;
+}
+h1 {
+    color: #000000d7
+}
+h3 {
+    color: #252525;
+    text-transform: none;
+}
+h4 {
+    color: rgb(165, 165, 165);
+}
+footer a {
+    color: #ffffff;
+}
+
+
+t
+.table-example {
+    border: 5px rgb(151, 151, 151) solid;
+    border-collapse: collapse;
+}
+
+.table-example thead {
+    background-color: #ababab;
+}
+
+.table-example td,
+.table-example th {
+    border: none;
+    border-bottom: 2px rgb(197, 197, 197) solid;
+    padding: 5px 15px;
+}
+
+.table-example tr:nth-child(even) {
+    background-color: #797979;
+}
+
+.table-example td:last-child,
+.table-example th:last-child {
+    text-align: center;
+}
+
+.table-example tr:last-child td:last-child {
+    background-color: #969696;
+
+
+}
+
+#contact-form {
+    background-color: #ffffff;
+    width: 320px;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+#contact-form select {
+    background-color: #c4c0ff;
+    padding: 5px 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 320px;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"] {
+height: 20px;
+width: 310px;
+padding: 5px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #e4e2ff;
+border-radius: 10px;
+}
+
+#contact-form textarea {
+    background-color: #e4e2ff;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+#contact-form input[type="submit"] {
+    background-color: rgb(134, 142, 255);
+    color: #ffffff;
+    border-radius: 50px;
+    width: 330px;
+    height: 40px;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: hwb(242 24% 0%) 68% 0%;
+    border: rgb(17, 0, 255) 1px solid;
+}
